@@ -1,0 +1,39 @@
+.home-container {
+  height: 100vh;
+  background-image: url('../assets/images/backgroundImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+  margin-top: 60px;
+  flex-direction: row;
+}
+
+.home-container a {
+  margin: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.home-container a:hover {
+  background-color: chartreuse;
+  transform: scale(1.1);
+  color: black;
+}
+
+.home-container h1 {
+font-size: 50px;
+margin-top: 0;
+}
+
